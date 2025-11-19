@@ -6,7 +6,11 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0b1020] text-white">
+    <div className="min-h-screen bg-[#0b1020] text-white relative">
+      {/* global ambience overlays */}
+      <div className="kb-noise" />
+      <div className="kb-scanlines" />
+
       <Hero />
       <Features />
       <Newsletter />
